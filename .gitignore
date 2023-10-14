@@ -1,0 +1,5 @@
+.idea/
+# 모든 node_modules 를 커밋에서 무시하겠다.
+node_modules
+# 루트의 node_modules 만 커밋에서 무시하지 않겠다.
+\!/node_modules
