@@ -1,0 +1,7 @@
+{
+  "name": "module-a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "cinos81 <cinos81@gmail.com>",
+  "license": "MIT"
+}

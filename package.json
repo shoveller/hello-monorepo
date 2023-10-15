@@ -1,0 +1,8 @@
+{
+  "name": "hello-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shoveller/hello-monorepo.git",
+  "author": "cinos81 <cinos81@gmail.com>",
+  "license": "MIT"
+}
