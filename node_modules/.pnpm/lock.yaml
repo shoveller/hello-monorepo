@@ -1,0 +1,21 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/module-a:
+    dependencies:
+      '@monorepo-test/module-b':
+        specifier: workspace:*
+        version: link:../module-b
+
+  packages/module-b:
+    dependencies:
+      '@monorepo-test/module-a':
+        specifier: workspace:*
+        version: link:../module-a
