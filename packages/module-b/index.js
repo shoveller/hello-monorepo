@@ -1,2 +1,2 @@
 console.log("module-b");
-require("module-a");
+require("@monorepo-test/module-a");
