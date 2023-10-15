@@ -4,5 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/shoveller/hello-monorepo.git",
   "author": "cinos81 <cinos81@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "nohoist": [
+      "**/lodash"
+    ],
+    "packages": [
+      "packages/*"
+    ]
+  }
 }
