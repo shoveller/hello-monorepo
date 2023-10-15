@@ -1,5 +1,5 @@
 {
-  "name": "module-a",
+  "name": "@monorepo-test/module-a",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
