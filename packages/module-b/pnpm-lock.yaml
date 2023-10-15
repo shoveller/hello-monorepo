@@ -1,0 +1,10 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@monorepo-test/module-a':
+    specifier: link:/Users/cinos81/study/hello-monorepo/packages/module-a
+    version: link:../module-a

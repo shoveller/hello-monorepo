@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@monorepo-test/module-b": "link:/Users/cinos81/study/hello-monorepo/packages/module-b"
+  }
 }
