@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "private": true
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.4.1"
+  }
 }
