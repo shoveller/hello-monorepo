@@ -1,10 +1,15 @@
 {
   "name": "@monorepo-test/module-a",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
+  "types": "index.ts",
   "author": "cinos81 <cinos81@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@monorepo-test/module-b": "*"
   }
 }

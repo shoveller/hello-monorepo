@@ -1,7 +1,11 @@
 {
   "name": "@monorepo-test/module-b",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "cinos81 <cinos81@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@monorepo-test/module-a": "*"
+  }
 }
