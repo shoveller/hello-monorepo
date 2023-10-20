@@ -13,9 +13,25 @@ importers:
       '@monorepo-test/module-b':
         specifier: workspace:*
         version: link:../module-b
+    devDependencies:
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
 
   packages/module-b:
     dependencies:
       '@monorepo-test/module-a':
         specifier: workspace:*
         version: link:../module-a
+    devDependencies:
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+packages:
+
+  /typescript@5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true

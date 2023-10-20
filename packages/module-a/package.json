@@ -2,7 +2,8 @@
   "name": "@monorepo-test/module-a",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
+  "types": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
@@ -11,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@monorepo-test/module-b": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
