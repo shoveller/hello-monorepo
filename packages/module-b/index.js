@@ -1,2 +1,3 @@
+import "@monorepo-test/module-a";
+
 console.log("module-b");
-require("@monorepo-test/module-a");
